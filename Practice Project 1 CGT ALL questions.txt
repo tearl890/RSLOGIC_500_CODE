@@ -41,6 +41,7 @@ Control temperature using a cooling fan.
 * O:0/1 – High temperature light
 
 **Test Criteria**
+Extra info: Stop the fan from turning off and on in a short tum=n
 
 1. Both inputs OFF → Fan OFF, Light OFF.
 2. 70°F switch ON → Fan ON.
@@ -66,6 +67,10 @@ Run a conveyor until a storage area is full.
 * O:0/1 – Full indicator
 
 **Test Criteria**
+
+Extra Information: 
+* Should the conveyer start up immediate 
+* The conveyer should be immediate at the end of the test
 
 1. No sensors ON → Conveyor ON.
 2. Occupied sensor ON → Conveyor remains ON.
@@ -93,6 +98,9 @@ Same concept as the original project, but add an alarm.
 
 **Requirements**
 
+*Important info: The compress will need a start up timer delay and sst.
+*The high pressure alarm should respond immediately
+
 * Compressor operation identical to Project 1.
 * Pressure OK light ON whenever low pressure switch is ON.
 * Alarm ON whenever high pressure switch is ON.
@@ -115,6 +123,9 @@ Maintain level using two pumps.
 * O:0/1 – Pump 2
 
 **Requirements**
+
+*Important: the pumps will need a start up and stop delay
+(may added a alarm)
 
 * When level is below low switch, both pumps run.
 * When high switch turns ON, both pumps stop.
