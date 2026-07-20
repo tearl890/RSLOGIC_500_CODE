@@ -1,6 +1,6 @@
-Since Project 1 is a basic start/stop-with-memory style PLC exercise (pump runs until a high-pressure condition is reached, then stays off until pressure drops below the low-pressure threshold), here are some similar-level practice projects:
+Since Project 1_TEST is a basic start/stop-with-memory style PLC exercise (pump runs until a high-pressure condition is reached, then stays off until pressure drops below the low-pressure threshold), here are some similar-level practice projects:
 
-### Practice Project 2 – Water Tank Level Control
+### Practice Project 1 – Water Tank Level Control
 
 **Process**
 Maintain water level in a tank using one fill pump.
@@ -25,7 +25,7 @@ Maintain water level in a tank using one fill pump.
 
 ---
 
-### Practice Project 3 – Cooling Fan Control
+### Practice Project 2 – Cooling Fan Control
 
 **Process**
 Control temperature using a cooling fan.
@@ -51,7 +51,7 @@ Extra info: Stop the fan from turning off and on in a short tum=n
 
 ---
 
-### Practice Project 4 – Conveyor Product Accumulation
+### Practice Project 3 – Conveyor Product Accumulation
 
 **Process**
 Run a conveyor until a storage area is full.
@@ -80,7 +80,7 @@ Extra Information:
 
 ---
 
-### Practice Project 5 – Air Compressor with Alarm
+### Practice Project 4 – Air Compressor with Alarm
 
 **Process**
 Same concept as the original project, but add an alarm.
@@ -107,7 +107,7 @@ Same concept as the original project, but add an alarm.
 
 ---
 
-### Practice Project 6 – Two-Pump Lead Control
+### Practice Project 5 – Two-Pump Lead Control
 
 **Process**
 Maintain level using two pumps.
@@ -151,5 +151,3 @@ Maintain level using two pumps.
 * In Auto, behave exactly like Project 1.
 * In Manual, pump runs continuously regardless of pressure switches.
 * Pressure light still follows pressure conditions.
-
-Try solving these without looking at the answer first. Start with a state table showing all possible input combinations and desired output states, then write the ladder logic. That's exactly the thought process you'll use later for PLC interviews and real troubleshooting.
